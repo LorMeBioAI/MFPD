@@ -11,7 +11,7 @@ MFPD pipeline serves for automated processing and pathogen identification of fun
 
 
 ```
-git clone https://github.com/YourUsername/MFPD.git
+git clone https://github.com/LorMeBioAI/MFPD
 
 cd MFPD
 
@@ -24,6 +24,7 @@ conda activate mfpd-env
 ## Preparation for full-length version
 ```
 sh prepare.sh
+unzip clusters.zip
 ```
 
 
