@@ -13,25 +13,17 @@ MFPD pipeline serves for automated processing and pathogen identification of fun
 
 ```
 git clone https://github.com/LorMeBioAI/MFPD
-
 cd MFPD
-
-conda env create -f environment.yml
-
-conda activate mfpd-env
-```
-
-
-## Preparation for full-length version
-```
+conda env create -f MFPD_env.yml
+conda activate MFPD
 sh prepare.sh
-unzip clusters.zip
 ```
+
 
 
 ## Usage: example
 ```
-python MFPD.py --file fq.list --pwd ./ --region subregion --identity 0.97
+MFPD --file fq.list --pwd ./ --region subregion --identity 0.97
 ```
 
 --file：sample table (tab delimiter)
