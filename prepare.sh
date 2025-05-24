@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 unzip clusters.zip
+unzip db.zip
 
 mkdir -p db
 makeblastdb -in ./clusters/clades_95.fa -dbtype nucl -out ./db/clades_blastn_db
