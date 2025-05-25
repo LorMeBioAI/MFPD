@@ -1,0 +1,28 @@
+name: MFPD
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+#  - qiime2=2024.10.1
+#  - q2-dada2=2024.10.0
+
+#  - q2cli=2024.10.0
+#  - q2-types=2024.10.0
+#  - q2-feature-table=2024.10.0
+#  - q2-diversity=2024.10.0
+#  - q2-taxa=2024.10.0
+#  - q2-alignment=2024.10.0
+#  - q2-phylogeny=2024.10.0
+#  - q2-dada2=2024.10.0
+#  - q2-demux=2024.10.0
+  - bioconductor-dada2=1.30.0
+
+  - python=3.10
+  - pandas
+  - blast
+  - mmseqs2
+  - seqkit
+  - perl
+  - r-base=4.3.3
