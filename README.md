@@ -1,4 +1,4 @@
-# MFPD: A multiple fungal pathogen detection pipeline for One Health practices
+# MFPD: A multiple fungal pathogen detection pipeline for One Health practices 
 
 MFPD pipeline serves for automated processing and pathogen identification of fungal ITS sequencing data. Allow users input quality controled sequences then output pathogen ASVs abundance and taxonomy.
 
